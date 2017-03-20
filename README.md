@@ -30,5 +30,5 @@ output - resulting random values
 *phase* - sets phase of sine wave or offsets frames of noise
 
 ### **Example:**  
-`node = mc.animNoise('myNoseNode')
+`node = mc.animNoise('myNoseNode')\n
 mc.connectAttr(node+'.out', 'pSphere1.ty')`
