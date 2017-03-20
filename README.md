@@ -4,7 +4,7 @@ Custom node for animated noise (random values).
 By default random values are generated between -1 and 1 but maybe multiplied by
 amplitude and offset attributes.
 
-###**Attributes:**  
+### **Attributes:**  
 *smoothing* - smooths generated values
 default: 0.5 (range 0 to 1)
 
@@ -29,6 +29,6 @@ output - resulting random values
 
 *phase* - sets phase of sine wave or offsets frames of noise
 
-###**Example:**  
+### **Example:**  
 `node = mc.animNoise('myNoseNode')
 mc.connectAttr(node+'.out', 'pSphere1.ty')`
