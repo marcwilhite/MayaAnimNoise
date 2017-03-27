@@ -1,3 +1,6 @@
+# MIT License
+# Copyright (c) 2017 Marc Wilhite
+
 import sys
 import random
 import maya.api.OpenMaya as om
